@@ -1,6 +1,10 @@
+import './Footer.scss';
+
 function Footer() {
     return (
-        <footer></footer>
+        <footer className='footer'>
+            <div>Контакты:</div>
+        </footer>
     );
 }
 

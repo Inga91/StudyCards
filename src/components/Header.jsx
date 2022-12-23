@@ -1,8 +1,8 @@
-import './Header.css';
+import './Header.scss';
 
 function Header() {
     return (
-        <header>
+        <header className='header'>
             <h1>Study Languages with us</h1>
         </header>
     );

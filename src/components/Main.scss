@@ -1,0 +1,17 @@
+.main, .table {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.cards {
+    margin: 20px 0;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+h2{
+    text-align: center;
+}

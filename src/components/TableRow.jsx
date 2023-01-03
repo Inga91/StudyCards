@@ -35,7 +35,9 @@ export default function TableRow(props) {
 
     const onClickButtonCancel = () => {
         setIsEdited(!isEdited);
-        
+        setTempWord(word);
+        setTempTranscription(transcription);
+        setTempTranslation(translation);
     };
 
     return(

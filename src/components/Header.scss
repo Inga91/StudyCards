@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Mohave&family=Poppins:wght@300;400;500;700&family=Raleway:wght@300;400;500;600&family=Roboto&display=swap');
+
+
 h1 {
     font-size: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -5,6 +8,45 @@ text-align: center;
 }
 
 .header {
+    background-color: rgb(254,242,0);
+    color: rgb(30, 29, 39);
+}
+
+.container {
     margin: 0 auto;
     width: 90%;
+}
+
+.logo-pic {
+    width: 150px;
+}
+
+.header__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav {
+    width: 40%;
+    padding-right: 30px;
+}
+.header__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__link {
+    list-style-type: none;
+}
+.header__link > a {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(30, 29, 39);
+    text-decoration: none;
+    font-size: 30px;
 }

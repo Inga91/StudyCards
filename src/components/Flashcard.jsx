@@ -5,10 +5,8 @@ import './Flashcard.scss'
 export default function Flashcard(props) {
     const [isOpen, setOpenCard] = useState(false)
     const ref = useRef()
-    console.log(`123`)
     useEffect(() => {
         ref.current.focus()
-        console.log(`ref`, ref.current)
     }, [props.word])
 
     const cardOpen = () => {
@@ -27,7 +25,7 @@ export default function Flashcard(props) {
                 <p>{props.transcription}</p>
             </div>
             {isOpen === true && <p>{props.translation}</p>}
-            <button onClick={cardOpen} ref={ref}>
+            <button onClick={cardOpen} ref={ref} className="btn">
                 {!isOpen === true ? 'Посмотреть перевод' : ' Скрыть перевод'}
             </button>
         </div>

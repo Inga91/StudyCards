@@ -1,9 +1,13 @@
 .card {
-    width: 150px;
-    height: 200px;
+    width: 400px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     border: 2px rgb(232, 104, 104) solid;
+}
+
+.btn:focus {
+    background-color: rgb(97, 178, 235);
 }

@@ -35,8 +35,6 @@ export default function Slider(props) {
         <div>
             {/* <h2>Нажмите на карточку, чтобы проверить перевод</h2> */}
             <div className="cards">
-                {console.log(indexArr)}
-                {console.log(indexArr.length)}
                 <Flashcard
                     word={words[index].english}
                     transcription={words[index].transcription}
@@ -44,7 +42,6 @@ export default function Slider(props) {
                     onChangeQantity={onChangeQantity}
                     style={{ textAlign: 'center' }}
                 ></Flashcard>
-                {console.log(qantity)}
                 <div style={{ textAlign: 'center' }}>
                     <button onClick={prevCard}>{'<-'}</button>
                     <button onClick={nextCard}>{'->'}</button>
